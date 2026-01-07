@@ -1,0 +1,5 @@
+.claude
+.idea
+node_modules
+pnpm-lock.yaml
+dist

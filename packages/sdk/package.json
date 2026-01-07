@@ -1,0 +1,41 @@
+{
+  "name": "@eulerstream/overlay-sdk",
+  "version": "0.1.0",
+  "description": "SDK for building browser-only React overlays",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "react",
+    "overlay",
+    "sdk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@eulerstream/euler-websocket-sdk": "^0.0.6"
+  }
+}

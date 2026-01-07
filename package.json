@@ -1,0 +1,11 @@
+{
+  "name": "tiktok-live-overlays",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
